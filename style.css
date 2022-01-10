@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+header {
+  height: 200px !important;
+  background-image: linear-gradient(
+      rgba(14, 13, 13, 0.795),
+      rgba(87, 79, 79, 0.747)
+    ),
+    url("https://img.mesrecettesfaciles.fr/2021-05/kebab-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+}
+.card-body {
+  background-image: linear-gradient(
+      rgba(14, 13, 13, 0.795),
+      rgba(87, 79, 79, 0.747)
+    ),
+    url("https://kebab-center.fr/wp-content/uploads/2021/03/kebab-center-viande.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+/* CLASSES */
+
+.logo {
+  font-family: "Comforter Brush", cursive;
+  font-size: 40px;
+  color: rgb(165, 157, 42);
+}
+
+.circle {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  border: 1px solid rgb(199, 165, 101);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.full {
+  background-color: rgb(199, 165, 101);
+}
